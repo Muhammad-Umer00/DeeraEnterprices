@@ -1,0 +1,26 @@
+{
+  "name": "deera-enterprises-website",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Corporate website for DEERA ENTERPRISES (React + JavaScript, Vite) with a Node.js/Express submission API.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:server": "npm --prefix server run dev",
+    "build": "vite build && node scripts/generate-seo.js",
+    "preview": "vite preview",
+    "start": "npm --prefix server start",
+    "lint:stack": "node scripts/check-stack.js"
+  },
+  "dependencies": {
+    "@fontsource-variable/inter": "^5.2.5",
+    "@fontsource-variable/source-serif-4": "^5.2.5",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-router-dom": "^7.6.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.5.0",
+    "vite": "^6.3.5"
+  }
+}
